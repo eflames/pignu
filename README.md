@@ -27,6 +27,8 @@ Pignu includes certain modules like:
 
 Pignu is based on Laravel Framework version 7.x and is formerly knonw as Tera Admin V3 by Grupo Tera.
 
+**About Pignu name:** Pignus is security in latin and I liked this name because of security of my app. Later I removed the S for better look and created a pretty yet awesome purple pig thanks to first letters of the name (PIG). That's all
+
 
 ## About Laravel
 
