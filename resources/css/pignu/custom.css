@@ -1,0 +1,20 @@
+/*No se por que esto va aqui pero bueno, funciona.*/
+.navbar .navbar-item.navbar-dropdown {
+    margin-left: auto;
+}
+.layout-px-spacing {
+    min-height: calc(100vh - 96px)!important;
+}
+.btn-teraadmin{color:#fff;background-color:#2ed6fb;border-color:#2ed6fb}
+.btn-teraadmin:hover{color:#fff;background-color: #2a9abc;border-color: #2bbee0
+}
+.btn-teraadmin.focus,.btn-teraadmin:focus{color:#fff;background-color:#2ed6fb;border-color: #29c0e1;box-shadow:0 0 0 .2rem rgba(46, 214, 251, 0.5)
+}
+.btn-teraadmin.disabled,.btn-teraadmin:disabled{color:#fff;background-color:#2ed6fb;border-color:#2ed6fb}
+.btn-teraadmin:not(:disabled):not(.disabled).active,
+.btn-teraadmin:not(:disabled):not(.disabled):active,
+.show>.btn-teraadmin.dropdown-toggle{color:#fff;background-color:#2ed6fb;border-color: #27b7d7
+}
+.btn-teraadmin:not(:disabled):not(.disabled).active:focus,
+.btn-teraadmin:not(:disabled):not(.disabled):active:focus,.show>.btn-teraadmin.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(82,88,93,.5)}
+
