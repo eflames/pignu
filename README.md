@@ -9,7 +9,7 @@
 
 ## About Pignu
 
-Pignu is a web admin tool to manage website contents for fast development of client projects. It allows to focus in client workflow and needs without worring about basic website stuff.
+Pignu is my own web admin tool to manage website contents for fast development of client projects. It allows me to focus in client workflow and needs without worring about basic website stuff.
 
 Pignu includes certain modules like:
 
