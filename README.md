@@ -30,7 +30,7 @@ Pignu is based on Laravel Framework version 7.x and is formerly knonw as Tera Ad
 
 More info in my website: http://www.ernestoflames.com
 
-## Screenshots
+## Some screenshots
 
 <p align="center"><img src="https://i.postimg.cc/SQH8SNzt/screencapture-pignu-test-login-2020-05-04-00-36-57.png" width="500"></p>
 <p align="center">Login screen</p>
