@@ -20,11 +20,11 @@ Pignu includes certain modules like:
 - Categories
 - Users and Roles
 - Basic and Advanced configuration
-- Plugins JS administration
+- JS Plugins administration
 - Activity log module
 - Menu builder **soon**
 
-Pignu is based on Laravel Framework version 7.x and is formerly knonw as Tera Admin V3 by Grupo Tera.
+Pignu is based on Laravel Framework version 7.x / Bootstrap 4.4 / Webpack, and is formerly knonw as Tera Admin V3 by Grupo Tera (My own company)
 
 **About Pignu name:** Pignus is security in latin and I liked this name because of security of my app. Later I removed the S for better look and created a pretty yet awesome purple pig thanks to first letters of the name (PIG). That's all.
 
