@@ -20,13 +20,13 @@ class ConfigController extends Controller
     use SEO, hasLanguages;
 
     private $policyName = 'configs';
-    private $HeaderTitle = "<span class='fas fa-cog fa-lg'></span> Configuraciónes básicas";
+    private $HeaderTitle = "<span class='fas fa-cog fa-lg'></span> Configuración";
 
     public function index()
     {
         try {
             $this->authorize($this->policyName, User::class);
-            $this->setSeo('Configuraciones básicas - Pignu');
+            $this->setSeo('Configuraciones - Pignu');
             $data['headerTitle'] = $this->HeaderTitle;
             $data['languages'] = Language::pluck('name', 'iso');
             $data['home_title'] = ModelSeo::where('key', 'home_title')->first();

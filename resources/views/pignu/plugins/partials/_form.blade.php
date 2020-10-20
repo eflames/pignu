@@ -1,9 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: noten
- * Date: 24/03/2020
- * Time: 06:37 PM
+ * Creado por: Ernesto Flames
  */?>
 
 <div class="widget-content widget-content-area">

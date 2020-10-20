@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class CreateCategoriesTable extends Migration
 {
@@ -14,13 +14,13 @@ class CreateCategoriesTable extends Migration
     public function up()
     {
         Schema::create('categories', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('name',150);
+            $table->id();
+            $table->string('name');
             $table->string('slug');
-            $table->bigInteger('type_id')->unsigned();
-            $table->bigInteger('created_by')->unsigned();
+            $table->string('fa_icon')->nullable();
+            $table->integer('category_type_id');
+            $table->integer('created_by');
             $table->timestamps();
-            $table->foreign('type_id')->references('id')->on('category_types');
         });
     }
 
@@ -31,6 +31,6 @@ class CreateCategoriesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('categories');
+        Schema::dropIfExists('categories');
     }
 }

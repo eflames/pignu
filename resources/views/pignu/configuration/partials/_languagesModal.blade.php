@@ -17,7 +17,7 @@
                     <p class="text-center">El idioma <strong>Español</strong> es el predeterminado, no se necesita agregar nuevamente.</p>
                 </div>
                 <div class="modal-footer justify-content-center">
-                    <button type="submit" class="btn btn-secondary"><span class="fas fa-plus-circle"></span> Agregar</button>
+                    <button type="submit" class="btn btn-secondary ld-ext-right"><span class="fas fa-plus-circle"></span> Agregar <span class="ld fas fa-spinner fa-spin"></button>
                 </div>
             {{ Form::close() }}
         </div>

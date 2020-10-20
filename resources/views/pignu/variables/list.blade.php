@@ -68,7 +68,7 @@
                                 </tr>
                                 @empty
                                     <tr>
-                                        <td colspan="3" class="text-center"><h4>Lo sentimos, se encontraron registros :(</h4></td>
+                                        <td colspan="3" class="text-center"><h4>Lo sentimos, no se encontraron registros :(</h4></td>
                                     </tr>
                                 @endforelse
                                 </tbody>

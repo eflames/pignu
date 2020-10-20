@@ -54,7 +54,7 @@
                 <a href="#" class="dropdown-toggle">
                     <div class="">
                         <span class="fas fa-store fa-lg pt-1 pt-2 pb-2 pr-2"></span>
-                        <span> Productos</span>
+                        <span> Catálogo de productos</span>
                     </div>
                 </a>
             </li>
@@ -62,7 +62,7 @@
                 <a href="#" class="dropdown-toggle">
                     <div class="">
                         <span class="fas fa-images fa-lg pt-1 pt-2 pb-2 pr-2"></span>
-                        <span> Galerías</span>
+                        <span> Galerías de imágenes</span>
                     </div>
                 </a>
             </li>
@@ -70,18 +70,28 @@
                 <a href="#" class="dropdown-toggle">
                     <div class="">
                         <span class="fas fa-copy fa-lg pt-2 pb-2 pr-2"></span>
-                        <span> Páginas</span>
+                        <span> Páginas estáticas</span>
                     </div>
                 </a>
             </li>
             <li class="menu">
                 <a href="#" class="dropdown-toggle">
                     <div class="">
+                        <span class="fas fa-download fa-lg pt-2 pb-2 pr-2"></span>
+                        <span> Descargas</span>
+                    </div>
+                </a>
+            </li>
+            @can('categories',\App\User::class)
+            <li class="menu @if(Request::is('pignu/categor*')) active @endif">
+                <a href="{{ route('categories.index') }}" class="dropdown-toggle">
+                    <div class="">
                         <span class="fas fa-list fa-lg pt-2 pb-2 pr-2"></span>
                         <span> Categorías de contenido</span>
                     </div>
                 </a>
             </li>
+            @endcan
             <li class="menu menu-heading">
                 <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-circle"><circle cx="12" cy="12" r="10"></circle></svg>
                     <span>ADMINISTRACIÓN</span>
@@ -116,7 +126,7 @@
                     </div>
                 </a>
                 <ul class="collapse submenu list-unstyled @if(Request::is('pignu/variables*') || Request::is('pignu/configuration*') || Request::is('pignu/plugins*')) show @endif" id="system" data-parent="#accordionNavbar">
-                    <li class="@if(Request::is('pignu/configuration*')) active @endif"><a href="{{ route('configuration.index') }}"> Configuración básica </a></li>
+                    <li class="@if(Request::is('pignu/configuration*')) active @endif"><a href="{{ route('configuration.index') }}"> Configuración </a></li>
                     <li class="@if(Request::is('pignu/variables*')) active @endif"><a href="{{ route('variables.index') }}"> Variables (avanzado) </a></li>
                     <li class="@if(Request::is('pignu/plugin*')) active @endif"><a href="{{ route('plugins.index') }}"> Plugins </a></li>
                 </ul>

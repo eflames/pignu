@@ -16,8 +16,8 @@ class CreatePluginsTable extends Migration
         Schema::create('plugins', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
-            $table->text('css_content');
-            $table->text('js_content');
+            $table->text('css_content')->nullable();
+            $table->text('js_content')->nullable();
             $table->integer('created_by');
             $table->integer('status')->nullable()->default(null);
             $table->timestamps();

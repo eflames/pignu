@@ -24,7 +24,7 @@
                             <div class="n-chk">
                                     <label class="new-control new-checkbox new-checkbox-rounded new-checkbox-text checkbox-secondary">
                                         <input name="admin" value="1" @if(@$role->admin) checked @endif type="checkbox" class="new-control-input">
-                                        <span class="new-control-indicator"></span><span class="new-chk-content">Acceso a <strong>Tera Admin</strong></span>
+                                        <span class="new-control-indicator"></span><span class="new-chk-content">Acceso a <strong>Pignu</strong></span>
                                     </label>
                                 </div>
                             <div class="n-chk">
@@ -36,19 +36,19 @@
                             <div class="n-chk">
                                 <label class="new-control new-checkbox new-checkbox-rounded new-checkbox-text checkbox-secondary">
                                     <input name="p_products" value="1" @if(@$role->p_products) checked @endif type="checkbox" class="new-control-input">
-                                    <span class="new-control-indicator"></span><span class="new-chk-content">Administrar <strong>Productos</strong></span>
+                                    <span class="new-control-indicator"></span><span class="new-chk-content">Administrar <strong>Catálogo de productos</strong></span>
                                 </label>
                             </div>
                             <div class="n-chk">
                                 <label class="new-control new-checkbox new-checkbox-rounded new-checkbox-text checkbox-secondary">
                                     <input name="p_galleries" value="1" @if(@$role->p_galleries) checked @endif type="checkbox" class="new-control-input">
-                                    <span class="new-control-indicator"></span><span class="new-chk-content">Adminstrar <strong>Galerías</strong></span>
+                                    <span class="new-control-indicator"></span><span class="new-chk-content">Adminstrar <strong>Galerías de imágenes</strong></span>
                                 </label>
                             </div>
                             <div class="n-chk">
                                 <label class="new-control new-checkbox new-checkbox-rounded new-checkbox-text checkbox-secondary">
                                     <input name="p_pages" value="1" @if(@$role->p_pages) checked @endif type="checkbox" class="new-control-input">
-                                    <span class="new-control-indicator"></span><span class="new-chk-content">Administrar <strong>Páginas</strong></span>
+                                    <span class="new-control-indicator"></span><span class="new-chk-content">Administrar <strong>Páginas estáticas</strong></span>
                                 </label>
                             </div>
                             

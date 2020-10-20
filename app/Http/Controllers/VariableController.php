@@ -19,7 +19,7 @@ class VariableController extends Controller
     public function index(){
         try{
             $this->authorize($this->policyName, User::class);
-            $this->setSeo('Variables de configuración');
+            $this->setSeo('Variables de configuración - Pignu');
             $data['headerTitle'] = $this->HeaderTitle;
             $data['searchRoute'] = 'variables.search';
             $data['searchProps'] = 'Clave, Valor, Descripción';
@@ -33,7 +33,7 @@ class VariableController extends Controller
     public function search(Request $request){
         try{
             $this->authorize($this->policyName, User::class);
-            $this->setSeo('Variables de configuración');
+            $this->setSeo('Variables de configuración - Pignu');
             $query = $request->t ? : '';
             $data['headerTitle'] = $this->HeaderTitle;
             $data['searchRoute'] = 'variables.search';
@@ -50,7 +50,7 @@ class VariableController extends Controller
     public function create(){
         try{
             $this->authorize($this->policyName, User::class);
-            $this->setSeo('Crear variable');
+            $this->setSeo('Crear variable - Pignu');
             $data['headerTitle'] = $this->HeaderTitle;
             return view('pignu.variables.create', $data);
         }catch (\Exception $e){
@@ -76,7 +76,7 @@ class VariableController extends Controller
     public function edit($id){
         try{
             $this->authorize($this->policyName, User::class);
-            $this->setSeo('Editar variable');
+            $this->setSeo('Editar variable - Pignu');
             $data['headerTitle'] = $this->HeaderTitle;
             $data['config'] = Config::findOrFail($id);
             return view('pignu.variables.edit',$data);
