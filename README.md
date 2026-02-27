@@ -8,6 +8,8 @@
 
 ## About Pignu
 
+# ⚠️ Pignu is no longer being maintained and its code has been released
+
 Pignu is my own web admin tool to manage website contents for fast development of client projects. It allows me to focus in client workflow and needs without worring about basic website stuff.
 
 Pignu includes certain modules like:
@@ -20,15 +22,15 @@ Pignu includes certain modules like:
 - Categories
 - Users and Roles
 - Basic and Advanced configuration
-- JS Plugins administration
+- Plugins JS administration
 - Activity log module
 - Menu builder **soon**
 
-Pignu is based on Laravel Framework version 7.x / Bootstrap 4.4 / Webpack, and is formerly knonw as Tera Admin V3 by Grupo Tera (My own company)
+Pignu is based on Laravel Framework version 7.x and is formerly knonw as Tera Admin V3 by Grupo Tera.
 
-**About Pignu name:** Pignus is security in latin and I liked this name because of security of my app. Later I removed the S for better look and created a pretty yet awesome purple pig thanks to first letters of the name (PIG). That's all.
+**About Pignu name:** Pignus is security in latin and I liked this name because of security of my app. Later I removed the S to better look and created a minimalistic yet awesome purple pig thanks to first letters of the name (PIG). That's all.
 
-More info in my website: http://www.ernestoflames.com
+More info in my website: https://www.ernestoflames.com
 
 ## Some screenshots
 
